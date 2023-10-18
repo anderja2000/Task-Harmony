@@ -72,7 +72,7 @@ export default function HomeScreen({ navigation }) {
           
         </TouchableOpacity>
 
-        <TouchableOpacity
+        {/* <TouchableOpacity
           onPress={() => navigation.navigate("Roulette")}
         >
           <Image source={require('./Images/roulette.png')}
@@ -81,9 +81,9 @@ export default function HomeScreen({ navigation }) {
               width: 75,
               height: 75,
               backgroundColor: "pink",
-            }} />
+            }} /> */}
           
-        </TouchableOpacity>
+        {/* </TouchableOpacity> */}
       </View>
     </View>
   );
